@@ -19,8 +19,7 @@ export default function Appbar(){
         <div >
         <button className="bg-neutral-950 mr-4 rounded-full uppercase py-2 px-3 cursor-pointer tracking-wider 
         border-2 border-yellow-300 hover:bg-transparent hover:text-lg hover:text-yellow-300 font-semibold"
-                onClick={()=> router.push('/user/Signup')
-                }
+                
         >Sign Up</button>
         </div>
         <div>
