@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main style={{background:"#000000"}}>
-      <div className="first h-screen  md:flex w-100% float-left">
+      <div className="first h-screen  md:flex w-100% float-left" >
       <div className="left w-1/2">
       <div className="flex">
         <img className="ml-40 w-56" src="x2.jpg" />
@@ -29,11 +29,15 @@ export default function Home() {
       <img className="w-5/6 mr-40" src="x1.jpg" />
       </div>
       </div>
-      <div className="pt-20 ">
-        <h1 className="text-6xl text-neutral-50 text-center"><strong>How to STV</strong></h1>
+      <div className="">
+        <h1 className="text-6xl text-neutral-50 text-center "><strong className="border-2 border-yellow-300 p-2">How to STV</strong></h1>
       
       </div>
-      <div style={{background:"#000000"}} className="second flex h-screen w-100% float-left border-2 border-yellow-300">
+      
+      <div style={{background:"#000000"}} className="second flex h-screen w-100% float-left">
+        <div>
+
+        </div>
       <div className="left w-1/2 flex items-center">
        <div className="">
         <img className="w-1/2 ml-60" src="scan.png" />
@@ -76,6 +80,10 @@ export default function Home() {
       </div>
       
       </div>
+      </div>
+      <div className="">
+        <h1 className="text-6xl text-neutral-50 text-center "><strong className="border-2 border-yellow-300 p-2">Why STV</strong></h1>
+      
       </div>
       <div style={{background:"#000000"}} className="third flex h-full w-100% float-left">
       <div className="left w-1/2">
