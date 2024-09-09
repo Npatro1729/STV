@@ -112,7 +112,7 @@ export default function Home() {
          offering round-the-clock service and reducing waiting times for users.</p>
       
        </div>
-       <div className="cursor-pointer p-3 mt-5 text-neutral-50">
+       <div style={{background:"#000000"}} className="cursor-pointer p-3 mt-5 text-neutral-50">
        
        <h4 className="text-2xl text-yellow-300"><strong>Women Safety</strong></h4>
        <p className="text-md text-justify">Self-riding allows women to commute at any time without having to wait for a driver,
