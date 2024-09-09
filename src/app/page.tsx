@@ -46,7 +46,7 @@ export default function Home() {
        <div className="hover:border-2 cursor-pointer w-1/3 p-3 mt-20 text-neutral-50">
        
        <h4 className="text-2xl hover:text-yellow-300 text-neutral-50"><strong>Download STV app</strong></h4>
-       <p className="text-md">Download SVT from Appstore or Playstore</p>
+       <p className="text-md">Download STV from Appstore or Playstore</p>
       
        </div>
        <div className="hover:border-2 cursor-pointer w-1/3 mt-5 p-3 text-neutral-50">
