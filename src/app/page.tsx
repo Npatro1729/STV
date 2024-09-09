@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="bg-neutral-950 ">
-      <div className="first flex h-screen">
+    <main style={{background:"#000000"}}>
+      <div className="first h-screen  md:flex">
       <div className="left w-1/2">
       <div className="flex">
         <img className="ml-40 w-56" src="x2.jpg" />

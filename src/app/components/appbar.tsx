@@ -9,7 +9,7 @@ export default function Appbar(){
     const router = useRouter();
    
    
-   return <div className="bg-neutral-950 flex justify-between">
+   return <div style={{background:"#000000"}} className=" flex justify-between">
     <div>
         
         <button onClick={()=>{router.push('/')}}><img className="w-28 h-28" src="/logo.jfif" alt="" /></button>
