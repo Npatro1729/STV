@@ -34,7 +34,7 @@ export default function Home() {
       
       </div>
       
-      <div style={{background:"#000000"}} className="second flex h-screen w-100% float-left">
+      <div style={{background:"#000000"}} className="second flex h-full w-100% float-left">
         <div>
 
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
       </div>
       </div>
       <div className="">
-        <h1 className="text-6xl text-neutral-50 text-center "><strong className="border-2 border-yellow-300 p-2">Why STV</strong></h1>
+        <h1 className="text-6xl text-neutral-50 text-center"><strong className="border-2 border-yellow-300 p-2 ">Why STV</strong></h1>
       
       </div>
       <div style={{background:"#000000"}} className="third flex h-full w-100% float-left">
