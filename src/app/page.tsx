@@ -33,7 +33,7 @@ export default function Home() {
         <h1 className="text-6xl text-neutral-50 text-center"><strong>How to STV</strong></h1>
       
       </div>
-      <div className="second flex h-screen w-100% float-left">
+      <div style={{background:"#000000"}} className="second flex h-screen w-100% float-left ">
       <div className="left w-1/2 flex items-center">
        <div className="">
         <img className="w-1/2 ml-60" src="scan.png" />
@@ -77,7 +77,7 @@ export default function Home() {
       
       </div>
       </div>
-      <div className="third flex h-screen w-100% float-left">
+      <div style={{background:"#000000"}} className="third flex h-screen w-100% float-left">
       <div className="left w-1/2">
       <div className="ml-60">
       
