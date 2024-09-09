@@ -29,11 +29,11 @@ export default function Home() {
       <img className="w-5/6 mr-40" src="x1.jpg" />
       </div>
       </div>
-      <div className="pt-20">
+      <div className="pt-20 ">
         <h1 className="text-6xl text-neutral-50 text-center"><strong>How to STV</strong></h1>
       
       </div>
-      <div style={{background:"#000000"}} className="second flex h-screen w-100% float-left ">
+      <div style={{background:"#000000"}} className="second flex h-screen w-100% float-left border-2 border-yellow-300">
       <div className="left w-1/2 flex items-center">
        <div className="">
         <img className="w-1/2 ml-60" src="scan.png" />
@@ -77,7 +77,7 @@ export default function Home() {
       
       </div>
       </div>
-      <div style={{background:"#000000"}} className="third flex h-screen w-100% float-left">
+      <div style={{background:"#000000"}} className="third flex h-full w-100% float-left">
       <div className="left w-1/2">
       <div className="ml-60">
       
