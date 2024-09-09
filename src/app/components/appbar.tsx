@@ -18,13 +18,13 @@ export default function Appbar(){
      <div className= "flex mt-3">
         <div >
         <button className="bg-neutral-950 mr-4 rounded-full uppercase py-2 px-3 cursor-pointer tracking-wider 
-        border-2 border-yellow-300 hover:bg-transparent hover:text-lg hover:text-yellow-300 font-semibold"
+        border-2 border-yellow-300 hover:bg-transparent hover:text-lg hover:text-yellow-300 font-semibold text-neutral-50"
                 
         >Sign Up</button>
         </div>
         <div>
         <button className="bg-neutral-950 mr-2 rounded-full uppercase py-2 px-3 cursor-pointer 
-        tracking-wider border-2 border-yellow-300 hover:bg-transparent hover:text-lg hover:text-yellow-300 font-semibold"
+        tracking-wider border-2 border-yellow-300 hover:bg-transparent hover:text-lg hover:text-yellow-300 font-semibold text-neutral-50"
              onClick={()=>{
              
             }}
